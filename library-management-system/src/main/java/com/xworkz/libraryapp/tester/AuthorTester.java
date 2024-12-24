@@ -20,9 +20,6 @@ public class AuthorTester {
             String insert5 = "insert into author_info values(0,'Girish',5)";
             String insert6 = "insert into author_info values(0,'Rajani',1)";
 
-
-
-
             Statement statement = connection.createStatement();
 
             statement.addBatch(insert1);
